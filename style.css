@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url("image/finalBG.jpg");
+    background-image:url(image/finalBG.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -331,7 +331,7 @@ nav .ico{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image:url('image/PhoneBg.jpg');
+        background-image:url(image/PhoneBg.jpg);
         /* background-size:cover; */
         /* background-position: center; */
     }
