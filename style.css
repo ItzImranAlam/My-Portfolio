@@ -121,12 +121,12 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li{
     list-style: none;
-    margin:15px 0;
+    margin:25px 0;
     /* padding:5px 0; */
 }
 .tab-contents ul li span{
     color: #ff004f;
-    font-size: 12px;
+    font-size: 18px;
 }
 .tab-contents{
     display: none;
@@ -387,12 +387,12 @@ nav .ico{
     }
     .tab-links{
         font-size:18px;
-        margin-right:50px;
-        margin-left:15%;
+        margin-right:10%;
+        margin-left:7%;
     }
-    #skills, #education{
-        text-align:justify;
-        margin-left:25%;
+    #skills, #education,#courses{
+        text-align:center;
+        /* margin-left:7%; */
     }
     .contact-left,.contact-right{
         flex-basis:100%;
@@ -405,5 +405,21 @@ nav .ico{
     }
     .btn3{
        margin-left:5%;
+    }
+    .services-list div:hover:none{
+        background-color: #ff004f;
+        color:black;
+        font-weight:13px;
+        transform: translateY(-10px);
+    }
+    .work:hover:none img{
+        transform: scale(1.1);
+    }
+    .work:hover:none .layer{
+        height: 100%;
+    }
+    .social-icons a:hover:none{
+        color: #ff004f;
+        transform:translateY(-5px);
     }
 }
