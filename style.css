@@ -135,7 +135,7 @@ nav ul li a:hover::after{
 }
 /* ---------------------Services------------ */
 #services{
-    padding:0 0 10px 0;
+    padding:0 0 15px 0;
 }
 .services-list{
     display: grid;
