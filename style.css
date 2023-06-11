@@ -246,9 +246,6 @@ nav ul li a:hover::after{
     color: #fff;
     transition: background 0.5s;
 }
-.btn:hover , .btn:active{
-    background:#ff004f;
-}
 /* ---------------------contact--------------------- */
 .contact-left{
     flex-basis:35%;
@@ -331,8 +328,6 @@ nav .ico{
 @media only screen and (max-width:600px){
     #header{
         background-image:url(image/PhoneBg.jpg);
-        /* background-size:cover; */
-        /* background-position: center; */
     }
     .header-text{
         margin-top:80%;
