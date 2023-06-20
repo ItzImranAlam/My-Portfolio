@@ -327,7 +327,7 @@ nav .ico{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(image/Phone-bg.png);
+        background-image:url(image/Phone-BG.jpg);
     }
     .header-text{
         margin-top:100%;
