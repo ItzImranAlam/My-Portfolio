@@ -379,15 +379,21 @@ nav .ico{
     .about-col-2{
         font-size:15px;
     }
-    .tab-links{
-        font-size:18px;
-        margin-right:10%;
-        margin-left:7%;
-    }
-    #skills, #education,#courses{
-        text-align:center;
-        /* margin-left:7%; */
-    }
+    .tab-title div {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin:auto;
+     }
+     .tab-links{
+         font-size:18px;
+         margin-right:10%;
+         margin-left:5%;
+     }
+     #skills, #education,#courses{
+         text-align:center;
+         margin: auto;
+     }
     .contact-left,.contact-right{
         flex-basis:100%;
     }
