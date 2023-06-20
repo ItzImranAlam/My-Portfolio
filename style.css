@@ -327,10 +327,10 @@ nav .ico{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(image/PhoneBg.jpg);
+        background-image:url(image/Phone-bg.jpg);
     }
     .header-text{
-        margin-top:80%;
+        margin-top:100%;
         font-size:20px;
     }
     .header-text h1{
