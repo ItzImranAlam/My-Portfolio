@@ -135,7 +135,7 @@ nav ul li a:hover::after{
 }
 /* ---------------------Services------------ */
 #services{
-    padding:0 0 15px 0;
+    padding:0 0 10px 0;
 }
 .services-list{
     display: grid;
@@ -246,6 +246,9 @@ nav ul li a:hover::after{
     color: #fff;
     transition: background 0.5s;
 }
+.btn:hover , .btn:active{
+    background:#ff004f;
+}
 /* ---------------------contact--------------------- */
 .contact-left{
     flex-basis:35%;
@@ -327,7 +330,9 @@ nav .ico{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image:url(image/Phone-BG.jpg);
+        background-image:url(image/Phone-bg.png);
+        /* background-size:cover; */
+        /* background-position: center; */
     }
     .header-text{
         margin-top:100%;
@@ -380,20 +385,20 @@ nav .ico{
         font-size:15px;
     }
     .tab-title div {
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        margin:auto;
-     }
-     .tab-links{
-         font-size:18px;
-         margin-right:10%;
-         margin-left:5%;
-     }
-     #skills, #education,#courses{
-         text-align:center;
-         margin: auto;
-     }
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       margin:auto;
+    }
+    .tab-links{
+        font-size:18px;
+        margin-right:10%;
+        margin-left:5%;
+    }
+    #skills, #education,#courses{
+        text-align:center;
+        margin: auto;
+    }
     .contact-left,.contact-right{
         flex-basis:100%;
     }
