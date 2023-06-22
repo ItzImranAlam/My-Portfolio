@@ -411,4 +411,7 @@ nav .ico{
     .btn3{
        margin-left:5%;
     }
+    #projects{
+        visibility: hidden;
+    }
 }
